@@ -26,5 +26,5 @@ FRI, Left Opposition
   
 **3.** Tidying data was started in OpenRefine via text clustering and space removing.
   
-**4.** Protest monitoring was prepared in English language with transliteration of Ukrainian organizations - most of the duplicates (for example, Ukrainian political party "Батьківщина" (later was renamed into "БЮТ") was coded in the raw data as "BYT", "Motherland", "Fatherland", "Homeland", "Batkivschina" etc.) were deleted manually.  
- 
+**4.** Protest monitoring was prepared in English language with transliteration of Ukrainian organizations - most of the duplicates (for example, Ukrainian political party *"Батьківщина"* (later was renamed into *"БЮТ"*) was coded in the raw data as *"BYT", "Motherland", "Fatherland", "Homeland", "Batkivschina"* etc.) were deleted manually.  
+   
