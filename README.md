@@ -28,3 +28,10 @@ FRI, Left Opposition
   
 **4.** Protest monitoring was prepared in English language with transliteration of Ukrainian organizations - most of the duplicates (for example, Ukrainian political party *"Батьківщина"* (later was renamed into *"БЮТ"*) was coded in the raw data as *"BYT", "Motherland", "Fatherland", "Homeland", "Batkivschina"* etc.) were deleted manually.  
    
+# Files in the folder  
+### .csv files  
++ *"allnames.csv"* - vertices attributes  
++ *"Edges all years.csv"* - list of the pairs and edge attributes
+  
+### R scripts  
++ *"Data_preparation.R"* - read.csv and setting all of the attributes (for vertices and edges)
