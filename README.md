@@ -2,27 +2,37 @@
 Network analysis of protest co-participation in Ukraine, 2011-2013
 
 ## Original data 
-Protest event database (Center for Social and Labor Research).  Database includes the type of action used by the protesters (protest repertoire), information about participants and their goals, place and time of the event, the number of protesters, general description of each event and other variables.
+Protest event database is gathered by [Center for Social and Labor Research](http://cslr.org.ua/bazi-protestnih-podiy-ta-povidomlen-2/).  
+Database includes the type of action used by the protesters (protest repertoire), information about participants and their goals, place and time of the event, the number of protesters, general description of each event and other variables.
+You can download original database for each year: [2011](http://cslr.org.ua/wp-content/uploads/2014/10/2011_events.xlsx), [2012](http://cslr.org.ua/wp-content/uploads/2014/10/2012_Events_-_final.xlsx), [2013](http://cslr.org.ua/wp-content/uploads/2014/10/2013_Events.xlsx).
 
-## Variables used: 
+## Variables used in analysis: 
 **1.** Event ID  
 **2.** Event start day  
 **3.** Actor specified (= main variable for network analysis)  
 **4.** Oblast  
 **5.** Number of protesters (was combined into 6 groups - according to sum for each organisation)  
-**+** the database was filtered: type == protest (other options: repression and concessions)  
+**+** the database was filtered: *type == protest* (other options: repression and concessions)  
 
 ## Data preparation
 **1.** To the protest network were included only political parties, trade unions and NGOs. People (e.g. "studets", "citizens"), commercial organizations (e.g. markets or big companies (except trade unions)) were excluded.  
   
 **2.**  All the participants were splitted by pairs   
 **For example:**   
-*Raw data:* "Direct Action, FRI, Left Opposition" (in one Excel cell)  
+*Raw data:*   
+  
+| Actor specified |  
+| --------------- |  
+| Direct Action, FRI, Left Opposition |  
+
 *Work data:*  
-Direct Action, FRI  
-Direct Action, Left Opposition  
-FRI, Left Opposition  
-(.csv format)  
+  
+| Actor 1       | Actor 2         |  
+| ------------- | --------------- |  
+| Direct Action | FRI             |  
+| Direct Action | Left Opposition |  
+| FRI           | Left Opposition |   
+  
   
 **3.** Tidying data was started in OpenRefine via text clustering and space removing.
   
